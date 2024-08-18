@@ -7,11 +7,9 @@ import Link from "next/link";
 import { mockData } from "../data/mockData";
 import Hamburger from "./Hamburger";
 
-interface LayoutProps {
-  onSelectUser: (userId: number) => void;
-}
 
-const Layout: React.FC<LayoutProps> = ({ onSelectUser }) => {
+
+const Layout: React.FC = () => {
   const [selectedUserId, setSelectedUserId] = useState<number>(1);
   const users = mockData.users;
 
@@ -25,7 +23,6 @@ const Layout: React.FC<LayoutProps> = ({ onSelectUser }) => {
 
   const handleUserClick = (userId: number) => {
     setSelectedUserId(userId);
-    onSelectUser(userId);
   };
 
   const hamClick = (userId: number) => {
