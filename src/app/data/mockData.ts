@@ -169,6 +169,13 @@ export const profileData = {
   profileLink: "https://www.linkedin.com/in/deveshtiwarii/",
   experience: [
     {
+      img: "https://media.licdn.com/dms/image/v2/D4D0BAQE7pcUYjOxnMg/company-logo_200_200/company-logo_200_200/0/1721040612194/botwot_logo?e=1732752000&v=beta&t=jnomAUKCxVcHawneD4K8fZMcBO9u052V3AynRBI4y_Y",
+      position: "Frontend Developer",
+      company: "BotWot · Internship",
+      role: 1,
+      duration: "June 2024 - Aug 2024 · 3 mos",
+    },
+    {
       img: "https://www.avidcareerist.com/wp-content/uploads/2019/03/AvidCareerist.com-10.png",
       position: "Freelance Developer ",
       company: "Freelance",
@@ -188,6 +195,13 @@ export const profileData = {
       company: "myAImate · Part-time",
       role: 1,
       duration: "Oct 2023 - Dec 2023 · 3 mos",
+    },
+    {
+      img: "https://media.licdn.com/dms/image/v2/C510BAQEJ-QRREHfJ6A/company-logo_100_100/company-logo_100_100/0/1630591116646/bhade_pay_logo?e=1732752000&v=beta&t=WETmBkbuAw9wWSeLC7aZIm0AgZroKAaMJnhwdsi4Jr8",
+      position: "Frontend Developer",
+      company: "BhadePay CRM · Internship",
+      role: 1,
+      duration: "June 2023 - Sept 2023 · 4 mos",
     },
   ],
   education: [
