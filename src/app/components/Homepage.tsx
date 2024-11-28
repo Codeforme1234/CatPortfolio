@@ -131,7 +131,7 @@ const Layout: React.FC = () => {
                   </Link>
                 </div>
               </div>
-              <Link className="hover:scale-105 duration-150" href="https://drive.google.com/file/d/1AGU5wOCRBkU04tRP0evLdgDNJWKAigHn/view?usp=sharing">
+              <Link className="hover:scale-105 duration-150" href="https://drive.google.com/file/d/1bw8as4FFdwmXoU5svHbS1Nj5UxVt1WFx/view?usp=sharing">
                 <div className="flex justify-center items-center">
                   <div className="text-white text-sm font-normal bg-blue-500 p-2 rounded-lg">
                     Get my Resume link
