@@ -2,6 +2,7 @@
 import React from "react";
 import {  profileData } from "../data/mockData";
 import Link from "next/link";
+import Image from 'next/image';
 
 interface ProfileProps {
   userId: number;
@@ -33,10 +34,12 @@ const Profile: React.FC<ProfileProps> = ({  }) => {
             <li key={index}>
               <div className="flex align-center  ">
                 <div className="mr-2">
-                  <img
+                  <Image
                     src={exp.img}
-                    alt="Profile"
+                    alt={exp.alt ? exp.alt : "c"}
                     className="w-10 h-10 mr-1 rounded"
+                    width={40}
+                    height={40}
                   />
                 </div>
                 <div className="max-w-[80%]">
@@ -60,10 +63,12 @@ const Profile: React.FC<ProfileProps> = ({  }) => {
             <li key={index}>
               <div className="flex align-center  ">
                 <div className="mr-2 ">
-                  <img
+                <Image
                     src={exp.img}
-                    alt="Profile"
+                    alt={exp.alt ? exp.alt : "c"}
                     className="w-10 h-10 mr-1 rounded"
+                    width={40}
+                    height={40}
                   />
                 </div>
                 <div className="max-w-[80%]">

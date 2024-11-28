@@ -1,4 +1,5 @@
 // mockData.ts
+import { bhadepayimg, botwot, myaimate, fretbox, superdm , ait, aps} from "../../../public/images";
 export const mockData = {
   users: [
     {
@@ -44,7 +45,7 @@ export const mockData = {
           sender: "Devesh Tiwari",
           message: [
             {
-              line: "Talking about my experince, I have 1.5 years of internship experience wrok with different companies and startups.",
+              line: "Talking about my experince, I have 1.5 years of internship experience working with different companies and startups.",
             },
             {
               line: "Most of them were early-stage startups and where I worked most of the time on the frontend part of the project.",
@@ -169,35 +170,36 @@ export const profileData = {
   profileLink: "https://www.linkedin.com/in/deveshtiwarii/",
   experience: [
     {
-      img: "https://media.licdn.com/dms/image/v2/D4D0BAQE7pcUYjOxnMg/company-logo_200_200/company-logo_200_200/0/1721040612194/botwot_logo?e=1732752000&v=beta&t=jnomAUKCxVcHawneD4K8fZMcBO9u052V3AynRBI4y_Y",
+      img: superdm,
+      position: "Frontend Developer",
+      company: "SuperDM · Internship",
+      role: 1,
+      duration: "Aug 2024 - Aug 2024 · 1 mo",
+    },
+    {
+      img: botwot,
       position: "Frontend Developer",
       company: "BotWot · Internship",
       role: 1,
       duration: "June 2024 - Aug 2024 · 3 mos",
     },
     {
-      img: "https://www.avidcareerist.com/wp-content/uploads/2019/03/AvidCareerist.com-10.png",
-      position: "Freelance Developer ",
-      company: "Freelance",
-      role: 1,
-      duration: "Jan 2023 - Present · 1 yrs 8 mos",
-    },
-    {
-      img: "https://media.licdn.com/dms/image/D4D0BAQEKTjjn4DWPSg/company-logo_100_100/0/1688813832174/fretbox_logo?e=1730937600&v=beta&t=KR7oVePX2qPpB2zaS0JG_rzVS87JVQZIJ-7OQ4FuQ-o",
+      img: fretbox,
+      alt: "FretBox",
       position: "App Developer ",
       role: 1,
       company: "FretBox · Internship",
       duration: "Jan 2024 - June 2024 · 5 mos",
     },
     {
-      img: "https://media.licdn.com/dms/image/D4D0BAQGCy0jfNp8FfA/company-logo_200_200/0/1700561364675/myaimate_logo?e=1730937600&v=beta&t=Sb4P41R9kXucUoxeJS80Sjk_2_L66qNARqS-Ni3GY2Q",
+      img: myaimate,
       position: "Frontend Developer",
       company: "myAImate · Part-time",
       role: 1,
       duration: "Oct 2023 - Dec 2023 · 3 mos",
     },
     {
-      img: "https://media.licdn.com/dms/image/v2/C510BAQEJ-QRREHfJ6A/company-logo_100_100/company-logo_100_100/0/1630591116646/bhade_pay_logo?e=1732752000&v=beta&t=WETmBkbuAw9wWSeLC7aZIm0AgZroKAaMJnhwdsi4Jr8",
+      img: bhadepayimg,
       position: "Frontend Developer",
       company: "BhadePay CRM · Internship",
       role: 1,
@@ -206,15 +208,16 @@ export const profileData = {
   ],
   education: [
     {
-      img: "https://media.licdn.com/dms/image/C560BAQGAwabQA7CqJA/company-logo_100_100/0/1631424743623?e=1730937600&v=beta&t=wI0P0otunw9l10BWujBrCMHyfDn50ZYynpHkNfvWPL4",
+      img: ait,
+      alt:"ait",
       institution: "Army Institute of Technology, Pune",
       degree: "Bachelor of Engineering (B.E.)",
       duration: "2021 - 2025",
     },
     {
-      img: "https://media.licdn.com/dms/image/C4E0BAQEwu3tI0vfsqQ/company-logo_100_100/0/1630653035969?e=1730937600&v=beta&t=bfMHq57rCs0Z-LOIKTbnq0_lSc95HNtbHmFhkR9o9fE",
+      img: aps,
       institution: "Army Public School",
-      degree: "High School Diploma - PCM",
+      degree: "High School - PCM",
       duration: "2018 - 2020",
     },
   ],
