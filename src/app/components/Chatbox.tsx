@@ -92,7 +92,7 @@ const ChatBox: React.FC<ChatBoxProps> = ({ userId }) => {
   if (!user) return null;
 
   return (
-    <div className="flex flex-col h-full max-h-[90vh] overflow-y-auto">
+    <div className="flex flex-col h-full">
       <div className="hidden sm:block">
         <div className="min-h-[6vh] px-3 text-[0.85rem] font-medium border-b-2 border-neutral-100 flex justify-between items-center">
           <div className="my-4">{user.name}</div>
@@ -140,7 +140,7 @@ const ChatBox: React.FC<ChatBoxProps> = ({ userId }) => {
         </div>
       </div>
       <div
-        className={`px-5 py-2 mb-1 ${
+        className={`px-5 py-2 mb-3 ${
           user.id === 4 ? "hidden" : ""
         } border-gray-100 flex w-full`}
       >

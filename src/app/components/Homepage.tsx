@@ -32,10 +32,10 @@ const Layout: React.FC = () => {
 
   return (
     <div>
-      <div className="relative w-full max-h-screen overflow-y-hidden">
+      <div className="relative w-full max-h-dvh ">
         <div className="flex flex-col max-w-vw ">
           <div className="bg-[#0d6efd] flex min-h-[17vh]"></div>
-          <div className="bg-[#98ccfd] min-h-[83vh] opacity-20"></div>
+          <div className="bg-[#98ccfd]  opacity-20"></div>
         </div>
       </div>
       <div className="min-w-full absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xl:min-w-[85vw] min-h-full">
@@ -150,7 +150,7 @@ const Layout: React.FC = () => {
             </div>
           </div>
           <div className="sm:hidden">
-            <div className="items-center my-3 min-h-[5vh] relative">
+            <div className="items-center pt-9 pb-2 min-h-[7vh] relative">
               <div className="flex ms-2 pt-1 items-center">
                 <div className="relative z-50">
                   <Hamburger isOpen={isSidebarOpen} onClick={toggleSidebar} />
