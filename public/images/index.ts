@@ -5,5 +5,7 @@ import fretbox from "./fretbox.png"
 import superdm from "./superdm.png"
 import ait from "./ait.png"
 import aps from "./aps.png"
-
-export {bhadepayimg, botwot, myaimate, fretbox, superdm, ait, aps}
+import mindtickle from "./mindtickle.png"   
+import dobr from "./dobr.png"
+import Profile1 from "./Profile1.jpeg"
+export {bhadepayimg, botwot, myaimate, fretbox, superdm, ait, aps, mindtickle, dobr, Profile1 as Profile}

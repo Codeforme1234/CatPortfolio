@@ -9,22 +9,23 @@ interface HamburgerProps {
 const Hamburger: React.FC<HamburgerProps> = ({ isOpen, onClick }) => {
   return (
     <button
-      className="flex flex-col space-y-1 p-2 cursor-pointer"
       onClick={onClick}
+      className="flex flex-col justify-center items-center w-8 h-8 space-y-1.5 focus:outline-none"
+      aria-label="Toggle menu"
     >
-      <div
-        className={`w-5 h-0.5 bg-white transition-transform ${
-          isOpen ? "transform rotate-45 translate-y-1.5" : ""
+      <span
+        className={`block w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+          isOpen ? "rotate-45 translate-y-2" : ""
         }`}
       />
-      <div
-        className={`w-5 h-0.5 bg-white transition-opacity ${
+      <span
+        className={`block w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
           isOpen ? "opacity-0" : ""
         }`}
       />
-      <div
-        className={`w-5 h-0.5 bg-white transition-transform ${
-          isOpen ? "transform -rotate-45 -translate-y-1.5" : ""
+      <span
+        className={`block w-6 h-0.5 bg-white transition-all duration-300 ease-in-out ${
+          isOpen ? "-rotate-45 -translate-y-2" : ""
         }`}
       />
     </button>

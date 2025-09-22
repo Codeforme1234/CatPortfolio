@@ -2,11 +2,22 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ 
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
+  variable: "--font-inter"
+});
 
 export const metadata: Metadata = {
-  title: "Devesh",
-  description: "Portfolio of Devesh",
+  title: "Devesh Tiwari - Frontend Developer Portfolio",
+  description: "Frontend Developer, Final year Engineering Student. Explore my work experience, projects, and skills through an interactive chat interface.",
+  keywords: ["Frontend Developer", "React", "Next.js", "TypeScript", "Portfolio"],
+  authors: [{ name: "Devesh Tiwari" }],
+  openGraph: {
+    title: "Devesh Tiwari - Frontend Developer Portfolio",
+    description: "Interactive portfolio showcasing frontend development skills and experience",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
@@ -15,8 +26,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={inter.variable}>
+      <body className={`${inter.className} antialiased h-screen overflow-hidden`}>{children}</body>
     </html>
   );
 }
