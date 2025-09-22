@@ -9,13 +9,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Devesh Tiwari - Frontend Developer Portfolio",
+  title: "Devesh Tiwari - Software Developer from India",
   description: "Frontend Developer, Final year Engineering Student. Explore my work experience, projects, and skills through an interactive chat interface.",
-  keywords: ["Frontend Developer", "React", "Next.js", "TypeScript", "Portfolio"],
+  keywords: ["Software Developer", "React", "Next.js", "TypeScript", "Portfolio"],
   authors: [{ name: "Devesh Tiwari" }],
   openGraph: {
-    title: "Devesh Tiwari - Frontend Developer Portfolio",
-    description: "Interactive portfolio showcasing frontend development skills and experience",
+    title: "Devesh Tiwari - Software Developer from India",
+    description: "Interactive portfolio showcasing software development skills and experience",
     type: "website",
   },
 };
